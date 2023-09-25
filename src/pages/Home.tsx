@@ -1,6 +1,12 @@
+import { Typography } from "@material-ui/core";
+
 const Homepage = ():JSX.Element => {
     return ( 
-        <h2>LibraryManagementSystemFrontend</h2>
+        <div>
+            <Typography variant="h4">
+                Library management system home
+            </Typography>
+        </div>
      );
 }
  
